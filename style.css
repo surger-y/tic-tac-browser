@@ -2,8 +2,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monospace;
-    background-color: #3a3b3c;
+    font-family: 'Courier New', monospace;
+    background-color: white;
 }
 
 .container {
@@ -17,14 +17,14 @@ body {
 }
 
 .text {
-    color: #fe019a;
+    color: #999999;
 }
 
 .reset {
     margin: 1em;
     background-color: rgba(0,0,0,0);
-    border: 1px solid #fe019a;
-    color: #fe019a;
+    border: 1px solid #999999;
+    color: #999999;
     text-align: center;
 }
 
@@ -33,8 +33,7 @@ body {
 }
 
 .reset:active {
-    background-color: #fe019a;
-    box-shadow: 0px 0px 10px #fe019a;
+    background-color: #999999;
 }
 
 .grid {
@@ -49,9 +48,9 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    color: #fe019a;
+    color: #999999;
     background-color: rgba(0,0,0,0);
-    border: 1px solid #fe019a;
+    border: 1px solid #999999;
     width: 100px;
     height: 100px;
 }
